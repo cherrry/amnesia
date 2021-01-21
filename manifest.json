@@ -3,7 +3,10 @@
   "name": "Amnesia",
   "description": "Clear browser history.",
   "version": "0.0.0",
-  "permissions": ["history"],
+  "permissions": [
+    "alarms",
+    "history"
+  ],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
